@@ -10,10 +10,10 @@ module "ec2_instance" {
 
   ami                    = "ami-08d4ac5b634553e16"
   instance_type          = "t2.micro"
-  key_name               = "raj"
+  key_name               = "tf"
   monitoring             = true
-  vpc_security_group_ids = ["sg-05d87627302d7cacf"]
-  subnet_id              = "subnet-0eeab5f36f7bb0853"
+  vpc_security_group_ids = ["sg-0d61ae64f8f0f6bcc"]
+  subnet_id              = "subnet-080f786fc7313bb62"
 
   
   tags = {
